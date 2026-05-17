@@ -1,23 +1,23 @@
-# Nanoo Labs (@nanoolabs)
+# Nanoo Labs [⌐■_■]
 ## Built to be fast, simple, and scalable
 
-> **Current Mission**: Building high-performance edge ecosystems.
+> Building high-performance edge ecosystems.
 
-### Tech environment now
-- **Frontend** — TS/JS (Astro), HTML, CSS (Tailwindcss)
-- **Backend** — TS (Hono) and Python (Fastapi)
-- **Sql** — Sqlite and Postgresql
-- **Nosql** — Redis
+- **Frontend** `TS/JS (Astro)` `HTML` `CSS (Tailwindcss)`
+- **Backend** `TS (Hono)` `Python (Fastapi)`
+- **Databases** `Postgresql` `Sqlite` `Redis`
 
----
-### Focus now
-- **Principles** • Performance-first. Zero-bloat. Scalable Architecture.
+Principles: Performance-first, zero-bloat, and scalable architecture.
 
----
-*Building fast, simple, and scalable apps with out-of-the-box thinking.*
+### Projects & Labs
 
-[ Nanoo Biz | Progress ](https://nanoo.biz.id) | [ Nanoo Cloud | Develop Stage ](https://nanoolabs.dev) | [ CDN Nanoo | Progress ](https://cdn.nanoolabs.dev)
+- [ **Nanoo Biz** ](https://nanoo.biz.id) — *Business-oriented platforms and digital solutions. (In Progress)*
+- [ **Nanoo Labs** ](https://nanoolabs.dev) — *High-performance edge ecosystems. (In Progress)*
+- [ **Nanoo CDN** ](https://cdn.nanoolabs.dev) — *Optimized content delivery network. (In Progress)*
+- [ **Nanoo Docs** ](https://docs.nanoolabs.dev) — *Documentation Nanoo ecosystems. (In Progress)*
 
----
-**Connect:**
-[X/Twitter](https://x.com/nanoolabs) / [Instagram](https://instagram.com/nanoolabs) / [Whatsapp](https://wa.me/6285177134033) / [Email](mailto:hi@nanoolabs.dev)
+[Twitter](https://x.com/nanoolabs) / [Instagram](https://instagram.com/nanoolabs) / [Whatsapp](https://wa.me/6285177134033) / [Email](mailto:hi@nanoolabs.dev)
+
+<p align="right">
+  <small>Maintained by Nanoo Labs Ecosystems </small>
+</p> 
