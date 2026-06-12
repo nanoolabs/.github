@@ -1,0 +1,34 @@
+name: Welcome Bot
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Welcome Message
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const isPR = !!context.payload.pull_request;
+            const issueNumber = isPR ? context.payload.pull_request.number : context.payload.issue.number;
+            const user = isPR ? context.payload.pull_request.user.login : context.payload.issue.user.login;
+
+            const message = `Yo @${user}! [⌐■_■]\n\nThanks for stopping by **Nanoo Labs** ` +
+                            (isPR ? `Your PR will be discussed shortly` : `Issue has been received`) + 
+                            ` Remember: **Performance-first, zero-bloat.**\n\nStay fast!`;
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: issueNumber,
+              body: message
+            });
