@@ -1,6 +1,7 @@
 name: Welcome Bot
 
 on:
+  workflow_dispatch:
   issues:
     types: [opened]
   pull_request:
