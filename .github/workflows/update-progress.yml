@@ -1,0 +1,57 @@
+name: Update Profile Progress
+
+on:
+  push:
+    paths:
+      - "progress.json"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update README progress
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+
+            // 1. Read json
+            const progressData = JSON.parse(fs.readFileSync('progress.json', 'utf8'));
+
+            // 2. Read README
+            const readmePath = path.join('profile', 'README.md');
+            let readmeContent = fs.readFileSync(readmePath, 'utf8');
+
+            // 3. Helper to generate progress bar
+            const generateBar = (percent) => {
+              const filledSize = Math.floor(percent / 10);
+              const emptySize = 10 - filledSize;
+              return '▓'.repeat(filledSize) + '░'.repeat(emptySize);
+            };
+
+            // 4. Update each section
+            Object.keys(progressData).forEach(key => {
+              const { percent, status } = progressData[key];
+              const bar = generateBar(percent);
+              const replacement = `<!-- ${key} -->\`[${bar}] ${percent}% (${status})\`<!-- ${key}_end -->`;
+              
+              const regex = new RegExp(`<!-- ${key} -->.*?<!-- ${key}_end -->`, 's');
+              readmeContent = readmeContent.replace(regex, replacement);
+            });
+
+            // 5. Write back
+            fs.writeFileSync(readmePath, readmeContent);
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "nanoobot"
+          git config --global user.email "bot@nanoolabs.dev"
+          git add profile/README.md
+          git diff --staged --quiet || git commit -m "chore: auto-update project progress"
+          git push
+

@@ -1,0 +1,18 @@
+{
+  "stack": {
+    "percent": 12,
+    "status": "Alpha"
+  },
+  "labs": {
+    "percent": 25,
+    "status": "Development"
+  },
+  "cdn": {
+    "percent": 63,
+    "status": "Experimental"
+  },
+  "docs": {
+    "percent": 26,
+    "status": "Writing"
+  }
+}
