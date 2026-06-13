@@ -21,6 +21,8 @@ Principles: Performance-first, zero-bloat, and scalable architecture.
 | [**Nanoo Docs**](https://docs.nanoolabs.dev) | `26%` | `Writing` |
 <!-- roadmap_table_end -->
 
+### Private Repositories
+Repositories containing sensitive ecosystems and security key (`stack`, `assets`) are kept private to ensure system integrity. All core projects and experiment remain open-source
 
 [Twitter](https://x.com/nanoolabs) / [Instagram](https://instagram.com/nanoolabs) / [Email](mailto:hi@nanoolabs.dev)
 
