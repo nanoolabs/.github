@@ -27,23 +27,24 @@ jobs:
             const readmePath = path.join('profile', 'README.md');
             let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
-            // 3. Helper to generate progress bar
-            const generateBar = (percent) => {
-              const filledSize = Math.floor(percent / 10);
-              const emptySize = 10 - filledSize;
-              return '▓'.repeat(filledSize) + '░'.repeat(emptySize);
+            // 3. Helper to generate Markdown table
+            const projectMeta = {
+              stack: "[**Nanoo Stack**](https://stack.nanoolabs.dev)",
+              labs: "[**Nanoo Labs**](https://nanoolabs.dev)",
+              cdn: "[**Nanoo CDN**](https://cdn.nanoolabs.dev)",
+              docs: "[**Nanoo Docs**](https://docs.nanoolabs.dev)"
             };
 
-            // 4. Update each section
-            Object.keys(progressData).forEach(key => {
+            const tableRows = Object.keys(progressData).map(key => {
               const { percent, status } = progressData[key];
-              const bar = generateBar(percent);
-              const replacement = `<!-- ${key} -->\`[${bar}] ${percent}% (${status})\`<!-- ${key}_end -->`;
-              
-              const regex = new RegExp(`<!-- ${key} -->.*?<!-- ${key}_end -->`, 's');
-              readmeContent = readmeContent.replace(regex, replacement);
-            });
+              const name = projectMeta[key] || key;
+              return `| ${name} | \`${percent}%\` | \`${status}\` |`;
+            }).join('\n');
 
+            const replacement = `<!-- roadmap_table -->\n${tableRows}\n<!-- roadmap_table_end -->`;
+
+            const regex = /<!-- roadmap_table -->.*?<!-- roadmap_table_end -->/s;
+            readmeContent = readmeContent.replace(regex, replacement);
             // 5. Write back
             fs.writeFileSync(readmePath, readmeContent);
 
@@ -52,6 +53,5 @@ jobs:
           git config --global user.name "nanoobot"
           git config --global user.email "bot@nanoolabs.dev"
           git add profile/README.md
-          git diff --staged --quiet || git commit -m "chore: auto-update project progress"
+          git diff --staged --quiet || git commit -m "chore: auto-update project progress nanoolabs"
           git push
-
