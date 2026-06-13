@@ -12,14 +12,15 @@ Principles: Performance-first, zero-bloat, and scalable architecture.
 
 ### Roadmap & Progress
 
+<!-- roadmap_table -->
 | Project | Progress | Status |
 | :--- | :--- | :--- |
-<!-- roadmap_table -->
 | [**Nanoo Stack**](https://stack.nanoolabs.dev) | `12%` | `Alpha` |
 | [**Nanoo Labs**](https://nanoolabs.dev) | `25%` | `Development` |
 | [**Nanoo CDN**](https://cdn.nanoolabs.dev) | `63%` | `Experimental` |
 | [**Nanoo Docs**](https://docs.nanoolabs.dev) | `26%` | `Writing` |
 <!-- roadmap_table_end -->
+
 
 [Twitter](https://x.com/nanoolabs) / [Instagram](https://instagram.com/nanoolabs) / [Whatsapp](https://wa.me/6285177134033) / [Email](mailto:hi@nanoolabs.dev)
 

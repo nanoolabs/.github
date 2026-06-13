@@ -35,14 +35,17 @@ jobs:
               docs: "[**Nanoo Docs**](https://docs.nanoolabs.dev)"
             };
 
+            // 4. Generate Entire Table
+            const header = "| Project | Progress | Status |\n| :--- | :--- | :--- |";
             const tableRows = Object.keys(progressData).map(key => {
               const { percent, status } = progressData[key];
               const name = projectMeta[key] || key;
               return `| ${name} | \`${percent}%\` | \`${status}\` |`;
             }).join('\n');
 
-            const replacement = `<!-- roadmap_table -->\n${tableRows}\n<!-- roadmap_table_end -->`;
-
+            const fullTable = `${header}\n${tableRows}`;
+            const replacement = `<!-- roadmap_table -->\n${fullTable}\n<!-- roadmap_table_end -->`;
+            
             const regex = /<!-- roadmap_table -->.*?<!-- roadmap_table_end -->/s;
             readmeContent = readmeContent.replace(regex, replacement);
             // 5. Write back
