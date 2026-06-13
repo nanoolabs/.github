@@ -2,8 +2,12 @@ name: Update Profile Progress
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "progress.json"
+      - ".github/workflows/update-progress.yml"
+      - "profile/README.md"
   workflow_dispatch:
 
 jobs:

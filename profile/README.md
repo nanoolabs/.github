@@ -22,7 +22,7 @@ Principles: Performance-first, zero-bloat, and scalable architecture.
 <!-- roadmap_table_end -->
 
 
-[Twitter](https://x.com/nanoolabs) / [Instagram](https://instagram.com/nanoolabs) / [Whatsapp](https://wa.me/6285177134033) / [Email](mailto:hi@nanoolabs.dev)
+[Twitter](https://x.com/nanoolabs) / [Instagram](https://instagram.com/nanoolabs) / [Email](mailto:hi@nanoolabs.dev)
 
 <p align="right">
   <small>Maintained by Nanoo Labs Ecosystems </small>
