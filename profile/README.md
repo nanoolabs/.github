@@ -13,8 +13,7 @@ Principles: Performance-first, zero-bloat, and scalable architecture.
 ### Roadmap & Progress
 
 | Project | Progress | Status |
-| :------ | :------- | :----- |
-
+| :--- | :--- | :--- |
 <!-- roadmap_table -->
 | [**Nanoo Stack**](https://stack.nanoolabs.dev) | `12%` | `Alpha` |
 | [**Nanoo Labs**](https://nanoolabs.dev) | `25%` | `Development` |
