@@ -15,10 +15,11 @@ Principles: Performance-first, zero-bloat, and scalable architecture.
 <!-- roadmap_table -->
 | Project | Progress | Status |
 | :--- | :--- | :--- |
-| [**Nanoo Stack**](https://stack.nanoolabs.dev) | `12%` | `Alpha` |
+| [**Nanoo Stack**](https://stack.nanoolabs.dev) | `12%` | `Development` |
 | [**Nanoo Labs**](https://nanoolabs.dev) | `25%` | `Development` |
 | [**Nanoo CDN**](https://cdn.nanoolabs.dev) | `63%` | `Experimental` |
-| [**Nanoo Docs**](https://docs.nanoolabs.dev) | `26%` | `Writing` |
+| [**Nanoo Docs**](https://docs.nanoolabs.dev) | `26%` | `Development` |
+| [**Nanoo Webrings**](https://webrings.nanoolabs.dev) | `82%` | `Polishing` |
 <!-- roadmap_table_end -->
 
 ### Private Repositories
