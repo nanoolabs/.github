@@ -1,18 +1,27 @@
 {
   "stack": {
-    "percent": 12,
-    "status": "Alpha"
+    "name": "Nanoo Stack",
+    "url": "https://stack.nanoolabs.dev",
+    "percent": 12
   },
   "labs": {
-    "percent": 25,
-    "status": "Development"
+    "name": "Nanoo Labs",
+    "url": "https://nanoolabs.dev",
+    "percent": 25
   },
   "cdn": {
-    "percent": 63,
-    "status": "Experimental"
+    "name": "Nanoo CDN",
+    "url": "https://cdn.nanoolabs.dev",
+    "percent": 63
   },
   "docs": {
-    "percent": 26,
-    "status": "Writing"
+    "name": "Nanoo Docs",
+    "url": "https://docs.nanoolabs.dev",
+    "percent": 26
+  },
+  "webrings": {
+    "name": "Nanoo Webrings",
+    "url": "https://webrings.nanoolabs.dev",
+    "percent": 82
   }
 }

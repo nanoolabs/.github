@@ -31,25 +31,28 @@ jobs:
             const readmePath = path.join('profile', 'README.md');
             let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
-            // 3. Helper to generate Markdown table
-            const projectMeta = {
-              stack: "[**Nanoo Stack**](https://stack.nanoolabs.dev)",
-              labs: "[**Nanoo Labs**](https://nanoolabs.dev)",
-              cdn: "[**Nanoo CDN**](https://cdn.nanoolabs.dev)",
-              docs: "[**Nanoo Docs**](https://docs.nanoolabs.dev)"
+            // 3. Helper to define status base on percentage
+            const getStatus = (percent) => {
+              if (percent >= 100) return "Stable";
+              if (percent >= 76) return "Polishing";
+              if (percent >= 51) return "Experimental";
+              if (percent >= 31) return "Alpha";
+              if (percent >= 11) return "Development";
+              return "Planning";
             };
 
             // 4. Generate Entire Table
             const header = "| Project | Progress | Status |\n| :--- | :--- | :--- |";
             const tableRows = Object.keys(progressData).map(key => {
-              const { percent, status } = progressData[key];
-              const name = projectMeta[key] || key;
-              return `| ${name} | \`${percent}%\` | \`${status}\` |`;
+              const project = progressData[key];
+              const autoStatus = getStatus(project.percent);
+              const nameLink = `[**${project.name}**](${project.url})`;
+              return `| ${nameLink} | \`${project.percent}%\` | \`${autoStatus}\` |`;
             }).join('\n');
 
             const fullTable = `${header}\n${tableRows}`;
             const replacement = `<!-- roadmap_table -->\n${fullTable}\n<!-- roadmap_table_end -->`;
-            
+
             const regex = /<!-- roadmap_table -->.*?<!-- roadmap_table_end -->/s;
             readmeContent = readmeContent.replace(regex, replacement);
             // 5. Write back

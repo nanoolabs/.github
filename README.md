@@ -19,5 +19,20 @@ These files are global standard. If a repository in Nanoo Labs does not have its
 ## Global Automation
 
 - [.github/workflows/welcome.yml](./.github/workflows/welcome.yml) – Automatic welcome bot for every new contributor
+- [.github/workflows/update-progress.yml](./.github/workflows/update-progress.yml) - Automatic roadmap update with **Auto-Status** logic.
+
+### Auto-Status Logic
+
+The status in the organization profile is calculate automatically base on the percentage in `progress.json`:
+
+| Percent | Status Label |
+| :--- | :--- |
+| **0% - 10%** | `Planning` |
+| **11% - 30%** | `Development` |
+| **31% - 50%** | `Alpha` |
+| **51% - 75%** | `Experimental` |
+| **76% - 99%** | `Polishing` |
+| **100%** | `Stable` |
 
 Stay fast. Stay simple. [⌐■_■]
+
