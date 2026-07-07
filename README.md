@@ -1,6 +1,6 @@
 # Nanoo Labs [⌐■_■]
 
-This repository is the **Control** for the **Nanoo Labs** organization. It contains global settings, community standards, and automation for all repositori in Nanoo Labs.
+This repository is the **Control** for the **Nanoo Labs** organization. It contains global settings, community standards, and automation for all repositories in Nanoo Labs.
 
 ## Community Health Files [ ▨_▨ ]
 
@@ -8,7 +8,7 @@ These files are global standard. If a repository in Nanoo Labs does not have its
 
 - [CONTRIBUTING.md](./CONTRIBUTING.md) – Principles of "Performance-first, zero-bloat"
 - [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) – Community behavior standards
-- [SECURITY.md](./SECURITY.md) – How to report security problems.
+- [SECURITY.md](./SECURITY.md) – How to report security problems
 - [.github/ISSUE_TEMPLATE/](./.github/ISSUE_TEMPLATE/) – Global templates for Bug Reports and Feature Requests
 - [.github/PULL_REQUEST_TEMPLATE.md](./.github/PULL_REQUEST_TEMPLATE.md) – Global template for Pull Requests
 
@@ -19,11 +19,11 @@ These files are global standard. If a repository in Nanoo Labs does not have its
 ## Global Automation [ ▣_▣ ]
 
 - [.github/workflows/welcome.yml](./.github/workflows/welcome.yml) – Automatic welcome bot for every new contributor
-- [.github/workflows/update-progress.yml](./.github/workflows/update-progress.yml) - Automatic roadmap update with **Auto-Status** logic.
+- [.github/workflows/update-progress.yml](./.github/workflows/update-progress.yml) – Automatic roadmap update with **Auto-Status** logic.
 
 ### Auto-Status Logic
 
-The status in the organization profile is calculate automatically base on the percentage in `progress.json`:
+The status in the organization profile is calculated automatically based on the percentage in `progress.json`:
 
 | Percent       | Status Label   |
 | :------------ | :------------- |

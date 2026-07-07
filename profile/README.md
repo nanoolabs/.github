@@ -1,7 +1,5 @@
 # Nanoo Labs [⌐■_■]
 
-## Built to be fast, simple, and scalable
-
 > Building high-performance edge ecosystems.
 
 - **Frontend** `TS/JS (Astro)` `HTML` `CSS (Tailwindcss)`
@@ -24,10 +22,10 @@ Principles: Performance-first, zero-bloat, and scalable architecture.
 
 ### Private Repositories [ ▨_▨ ]
 
-Repositories containing sensitive ecosystems and security key (`stack`, `assets`, `nanoolabs`) are kept private to ensure system integrity. All core projects and experiment remain open-source
+Repositories containing sensitive ecosystems and security key (`stack`, `assets`, `nanoolabs`) are kept private to ensure system integrity. All core projects and experiments remain open-source
 
-[Twitter](https://x.com/nanoolabs) / [Instagram](https://instagram.com/nanoolabs) / [Email](mailto:hi@nanoolabs.dev)
+[Twitter](https://x.com/nanoolabs) / [Instagram](https://instagram.com/nanoolabs) / [Email](mailto:hello@nanoolabs.dev)
 
 <p align="right">
-  <small>Maintained by Nanoo Labs Ecosystems </small>
+  <small>Maintained by Nanoo Labs Ecosystems</small>
 </p>
