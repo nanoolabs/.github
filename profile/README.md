@@ -6,8 +6,6 @@
 - **Backend** `TS (Hono)` `Python (Fastapi)`
 - **Databases** `Postgresql` `Sqlite` `Redis`
 
-Principles: Performance-first, zero-bloat, and scalable architecture.
-
 ### Roadmap & Progress [ ▦_▦ ]
 
 <!-- roadmap_table -->
@@ -24,8 +22,4 @@ Principles: Performance-first, zero-bloat, and scalable architecture.
 
 Repositories containing sensitive ecosystems and security key (`stack`, `assets`, `nanoolabs`) are kept private to ensure system integrity. All core projects and experiments remain open-source
 
-[Twitter](https://x.com/nanoolabs) / [Instagram](https://instagram.com/nanoolabs) / [Email](mailto:hello@nanoolabs.dev)
-
-<p align="right">
-  <small>Maintained by Nanoo Labs Ecosystems</small>
-</p>
+[Twitter](https://x.com/nanoolabs) · [Instagram](https://instagram.com/nanoolabs) · [Email](mailto:hello@nanoolabs.dev)
