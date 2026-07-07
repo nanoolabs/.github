@@ -10,7 +10,7 @@
 
 Principles: Performance-first, zero-bloat, and scalable architecture.
 
-### Roadmap & Progress
+### Roadmap & Progress [ ▦_▦ ]
 
 <!-- roadmap_table -->
 | Project | Progress | Status |
@@ -22,9 +22,9 @@ Principles: Performance-first, zero-bloat, and scalable architecture.
 | [**Nanoo Webrings**](https://webrings.nanoolabs.dev) | `85%` | `Polishing` |
 <!-- roadmap_table_end -->
 
-### Private Repositories
+### Private Repositories [ ▨_▨ ]
 
-Repositories containing sensitive ecosystems and security key (`stack`, `assets`) are kept private to ensure system integrity. All core projects and experiment remain open-source
+Repositories containing sensitive ecosystems and security key (`stack`, `assets`, `nanoolabs`) are kept private to ensure system integrity. All core projects and experiment remain open-source
 
 [Twitter](https://x.com/nanoolabs) / [Instagram](https://instagram.com/nanoolabs) / [Email](mailto:hi@nanoolabs.dev)
 

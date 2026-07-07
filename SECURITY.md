@@ -1,4 +1,4 @@
-# Security Policy
+# Security Policy [ ▨_▨ ]
 
 ## Supported Versions
 
@@ -9,7 +9,7 @@ We only support the latest major versions of our projects.
 | Latest  | :white_check_mark: |
 | < Last  | :x:                |
 
-## Reporting a Vulnerability
+## Reporting a Vulnerability [ ▓_█ ]
 
 We take security seriously at Nanoo Labs. If you find a vulnerability, please do NOT open a public issue.
 

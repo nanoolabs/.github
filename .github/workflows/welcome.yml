@@ -25,7 +25,7 @@ jobs:
 
             const message = `Yo @${user}! [⌐■_■]\n\nThanks for stopping by **Nanoo Labs** ` +
                             (isPR ? `Your PR will be discussed shortly` : `Issue has been received`) + 
-                            ` Remember: **Performance-first, zero-bloat.**\n\nStay fast!`;
+                            ` [ ^■^ ] Remember: **Performance-first, zero-bloat.**\n\nStay fast!`;
 
             await github.rest.issues.createComment({
               owner,
