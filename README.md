@@ -1,4 +1,4 @@
-# Nanoo Labs .github organization repository [⌐■_■]
+# Nanoo Labs [⌐■_■]
 
 This repository is the **Control** for the **Nanoo Labs** organization. It contains global settings, community standards, and automation for all repositori in Nanoo Labs.
 
@@ -25,14 +25,13 @@ These files are global standard. If a repository in Nanoo Labs does not have its
 
 The status in the organization profile is calculate automatically base on the percentage in `progress.json`:
 
-| Percent | Status Label |
-| :--- | :--- |
-| **0% - 10%** | `Planning` |
-| **11% - 30%** | `Development` |
-| **31% - 50%** | `Alpha` |
+| Percent       | Status Label   |
+| :------------ | :------------- |
+| **0% - 10%**  | `Planning`     |
+| **11% - 30%** | `Development`  |
+| **31% - 50%** | `Alpha`        |
 | **51% - 75%** | `Experimental` |
-| **76% - 99%** | `Polishing` |
-| **100%** | `Stable` |
+| **76% - 99%** | `Polishing`    |
+| **100%**      | `Stable`       |
 
 Stay fast. Stay simple. [⌐■_■]
-

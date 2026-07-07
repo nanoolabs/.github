@@ -13,7 +13,7 @@ We only support the latest major versions of our projects.
 
 We take security seriously at Nanoo Labs. If you find a vulnerability, please do NOT open a public issue.
 
-Instead, please send an email to **hi@nanoolabs.dev**.
+Instead, please send an email to **security@nanoolabs.dev**.
 
 We will:
 
