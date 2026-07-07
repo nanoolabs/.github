@@ -7,12 +7,12 @@
   "labs": {
     "name": "Nanoo Labs",
     "url": "https://nanoolabs.dev",
-    "percent": 25
+    "percent": 27
   },
   "cdn": {
     "name": "Nanoo CDN",
     "url": "https://cdn.nanoolabs.dev",
-    "percent": 63
+    "percent": 69
   },
   "docs": {
     "name": "Nanoo Docs",
@@ -22,6 +22,6 @@
   "webrings": {
     "name": "Nanoo Webrings",
     "url": "https://webrings.nanoolabs.dev",
-    "percent": 82
+    "percent": 85
   }
 }
