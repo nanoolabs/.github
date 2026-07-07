@@ -6,20 +6,20 @@ This repository is the **Control** for the **Nanoo Labs** organization. It conta
 
 These files are global standard. If a repository in Nanoo Labs does not have its own version, GitHub will use these files:
 
-- [CONTRIBUTING.md](./CONTRIBUTING.md) – Principles of "Performance-first, zero-bloat"
-- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) – Community behavior standards
-- [SECURITY.md](./SECURITY.md) – How to report security problems
-- [.github/ISSUE_TEMPLATE/](./.github/ISSUE_TEMPLATE/) – Global templates for Bug Reports and Feature Requests
-- [.github/PULL_REQUEST_TEMPLATE.md](./.github/PULL_REQUEST_TEMPLATE.md) – Global template for Pull Requests
+- [CONTRIBUTING](./CONTRIBUTING.md) – Principles of "Performance-first, zero-bloat"
+- [CODE OF CONDUCT](./CODE_OF_CONDUCT.md) – Community behavior standards
+- [SECURITY](./SECURITY.md) – How to report security problems
+- [ISSUE TEMPLATES](./.github/ISSUE_TEMPLATE/) – Global templates for Bug Reports and Feature Requests
+- [PR TEMPLATE](./.github/PULL_REQUEST_TEMPLATE.md) – Global template for Pull Requests
 
 ## Profile Content [⌐■_■]
 
-- [./profile/README.md](./profile/README.md) – Content for the main organization page at [github.com/nanoolabs](https://github.com/nanoolabs).
+- [PROFILE](./profile/README.md) – Content for the main organization page at [github.com/nanoolabs](https://github.com/nanoolabs)
 
 ## Global Automation [ ▣_▣ ]
 
-- [.github/workflows/welcome.yml](./.github/workflows/welcome.yml) – Automatic welcome bot for every new contributor
-- [.github/workflows/update-progress.yml](./.github/workflows/update-progress.yml) – Automatic roadmap update with **Auto-Status** logic.
+- [WELCOME](./.github/workflows/welcome.yml) – Automatic welcome bot for every new contributor
+- [UPDATE PROGRESS](./.github/workflows/update-progress.yml) – Automatic roadmap update with **Auto-Status** logic.
 
 ### Auto-Status Logic
 
