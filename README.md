@@ -6,9 +6,10 @@ This repository is the **Control** for the **Nanoo Labs** organization. It conta
 
 These files are global standard. If a repository in Nanoo Labs does not have its own version, GitHub will use these files:
 
-- [CONTRIBUTING](./CONTRIBUTING.md) – Principles of "Performance-first, zero-bloat"
+<!-- CONTRIBUTING.md - pending -->
 - [CODE OF CONDUCT](./CODE_OF_CONDUCT.md) – Community behavior standards
 - [SECURITY](./SECURITY.md) – How to report security problems
+- [LICENSE](./LICENSE) - MIT License
 - [ISSUE TEMPLATES](./.github/ISSUE_TEMPLATE/) – Global templates for Bug Reports and Feature Requests
 - [PR TEMPLATE](./.github/PULL_REQUEST_TEMPLATE.md) – Global template for Pull Requests
 
