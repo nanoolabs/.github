@@ -1,6 +1,6 @@
-# Nanoo Labs [⌐■_■]
+# Nanoo Labs · Org Control [⌐■_■]
 
-This repository is the **Control** for the **Nanoo Labs** organization. It contains global settings, community standards, and automation for all repositories in Nanoo Labs.
+**The control repository for the Nanoo Labs organization** - global settings, community standards, and automation inherited by every Nanoo Labs repo.
 
 ## Community Health Files [ ▨_▨ ]
 
