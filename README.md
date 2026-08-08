@@ -6,7 +6,7 @@
 
 These files are global standard. If a repository in Nanoo Labs does not have its own version, GitHub will use these files:
 
-<!-- CONTRIBUTING.md - pending -->
+- [CONTRIBUTING](./CONTRIBUTING.md) – How to contribute, commit style, and standards
 - [CODE OF CONDUCT](./CODE_OF_CONDUCT.md) – Community behavior standards
 - [SECURITY](./SECURITY.md) – How to report security problems
 - [LICENSE](./LICENSE) - MIT License
