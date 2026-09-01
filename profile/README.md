@@ -10,15 +10,13 @@
 ### Roadmap & Progress [ ▦_▦ ]
 
 <!-- roadmap_table -->
-
-| Project                                              | Progress | Status         |
-| :--------------------------------------------------- | :------- | :------------- |
-| [**Nanoo Stack**](https://stack.nanoolabs.dev)       | `12%`    | `Development`  |
-| [**Nanoo Labs**](https://nanoolabs.dev)              | `27%`    | `Development`  |
-| [**Nanoo CDN**](https://cdn.nanoolabs.dev)           | `72%`    | `Experimental` |
-| [**Nanoo Docs**](https://docs.nanoolabs.dev)         | `26%`    | `Development`  |
-| [**Nanoo Webrings**](https://webrings.nanoolabs.dev) | `90%`    | `Polishing`    |
-
+| Project | Progress | Status |
+| :--- | :--- | :--- |
+| [**Nanoo Stack**](https://stack.nanoolabs.dev) | `12%` | `Development` |
+| [**Nanoo Labs**](https://nanoolabs.dev) | `27%` | `Development` |
+| [**Nanoo CDN**](https://cdn.nanoolabs.dev) | `72%` | `Experimental` |
+| [**Nanoo Docs**](https://docs.nanoolabs.dev) | `26%` | `Development` |
+| [**Nanoo Webrings**](https://webrings.nanoolabs.dev) | `90%` | `Polishing` |
 <!-- roadmap_table_end -->
 
 ### Private Repositories [ ▨_▨ ]
