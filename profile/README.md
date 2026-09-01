@@ -1,21 +1,24 @@
-# Nanoo Labs [⌐■_■]
-
 > Building high-performance edge ecosystems.
 
-- **Frontend** `TS/JS (Astro)` `HTML` `CSS (Tailwindcss)`
-- **Backend** `TS (Hono)` `Python (Fastapi)`
-- **Databases** `Postgresql` `Sqlite` `Redis`
+### Current Stack [ ▣_▣ ]
+
+- **Frontend** `TS/JS (Astro)` `HTML` `CSS (Tailwind v4)`
+- **Backend** `TS (Hono)`
+- **Databases** `SQLite (via Turso/libSQL)` `Redis`
+- **Infrastructure** `Cloudflare (Workers & Pages)` `Backblaze B2` `Node.js (pnpm)` `GitHub Actions`
 
 ### Roadmap & Progress [ ▦_▦ ]
 
 <!-- roadmap_table -->
-| Project | Progress | Status |
-| :--- | :--- | :--- |
-| [**Nanoo Stack**](https://stack.nanoolabs.dev) | `12%` | `Development` |
-| [**Nanoo Labs**](https://nanoolabs.dev) | `27%` | `Development` |
-| [**Nanoo CDN**](https://cdn.nanoolabs.dev) | `72%` | `Experimental` |
-| [**Nanoo Docs**](https://docs.nanoolabs.dev) | `26%` | `Development` |
-| [**Nanoo Webrings**](https://webrings.nanoolabs.dev) | `90%` | `Polishing` |
+
+| Project                                              | Progress | Status         |
+| :--------------------------------------------------- | :------- | :------------- |
+| [**Nanoo Stack**](https://stack.nanoolabs.dev)       | `12%`    | `Development`  |
+| [**Nanoo Labs**](https://nanoolabs.dev)              | `27%`    | `Development`  |
+| [**Nanoo CDN**](https://cdn.nanoolabs.dev)           | `72%`    | `Experimental` |
+| [**Nanoo Docs**](https://docs.nanoolabs.dev)         | `26%`    | `Development`  |
+| [**Nanoo Webrings**](https://webrings.nanoolabs.dev) | `90%`    | `Polishing`    |
+
 <!-- roadmap_table_end -->
 
 ### Private Repositories [ ▨_▨ ]
