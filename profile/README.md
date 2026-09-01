@@ -20,6 +20,6 @@
 
 ### Private Repositories [ ▨_▨ ]
 
-Repositories containing sensitive ecosystems and security key (`stack`, `assets`, `nanoolabs`) are kept private to ensure system integrity. All core projects and experiments remain open-source
+Repositories containing sensitive ecosystems and security key (`app`, `assets`, `nanoolabs`) are kept private to ensure system integrity. All core projects and experiments remain open-source
 
 [Twitter](https://x.com/nanoolabs) · [Instagram](https://instagram.com/nanoolabs) · [Email](mailto:hello@nanoolabs.dev)
