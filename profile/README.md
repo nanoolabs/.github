@@ -5,7 +5,7 @@
 - **Frontend** `TS/JS (Astro)` `HTML` `CSS (Tailwind v4)`
 - **Backend** `TS (Hono)`
 - **Databases** `SQLite (via Turso/libSQL)` `Redis`
-- **Infrastructure** `Cloudflare (Workers & Pages)` `Backblaze B2` `Node.js (pnpm)` `GitHub Actions`
+- **Infrastructure** `Cloudflare (Workers · Pages · Cache API)` `Backblaze B2` `Node.js (pnpm)` `GitHub Actions`
 
 ### Roadmap & Progress [ ▦_▦ ]
 

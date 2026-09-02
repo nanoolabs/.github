@@ -1,0 +1,46 @@
+name: Discussion Moderator
+
+on:
+  discussion:
+    types: [created]
+
+permissions:
+  discussions: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome & Etiquette
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const d = context.payload.discussion;
+            const user = d.user.login;
+            const discussionId = d.node_id;
+            const cat = d.category ? d.category.name : '';
+
+            const categories = {
+              '🔔 Announcements': 'broadcast updates from the Nanoo Labs team',
+              '💡 Ideas': 'propose a feature or experiment before it becomes an issue',
+              '💬 Q&A': 'ask anything about using a Nanoo Labs project',
+            };
+            const catLine = categories[cat]
+              ? `This is the **${cat}** category, so ${categories[cat]}.`
+              : '';
+
+            const message = `Yo @${user}! [⌐■_■]\n\n` +
+              `Welcome to the **Nanoo Labs** community discussion. ${catLine}\n\n` +
+              `**Ground rules:**\n` +
+              `- Read our [Code of Conduct](https://github.com/nanoolabs/.github/blob/main/CODE_OF_CONDUCT.md).\n` +
+              `- Before contributing code, read the [Contribution Guide](https://github.com/nanoolabs/contributions).\n` +
+              `- An **Ideas** discussion becomes a GitHub issue once we agree on the design. [ ^■^ ]\n\n` +
+              `Stay fast, keep it clean! [ ▣_▣ ]`;
+
+            await github.graphql(`
+              mutation($discussionId: ID!, $body: String!) {
+                addDiscussionComment(input: {discussionId: $discussionId, body: $body}) {
+                  comment { id }
+                }
+              }
+            `, { discussionId, body: message });
