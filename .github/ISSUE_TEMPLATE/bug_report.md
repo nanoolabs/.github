@@ -1,29 +1,26 @@
 ---
 name: Bug Report
-about: Create a report to help us improve.
+about: Create a report to help us improve
 title: "bug: "
 labels: bug
 assignees: ""
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Describe the bug
 
-**Reproduction**
-Steps to reproduce the behavior:
+<!-- A clear and concise description of what the bug is. -->
+
+## Reproduction
+
+<!-- Steps to reproduce the behavior: -->
 
 1. ...
 2. ...
-3. ...
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Expected behavior
 
-**Environment (please complete the following information):**
+<!-- What you expected to happen -->
 
-- OS: [e.g. iOS]
-- Browser [e.g. chrome, safari]
-- Version [e.g. 22]
+## Additional context
 
-**Additional context**
-Add any other context about the problem here.
+<!-- Any other context about the problem. -->

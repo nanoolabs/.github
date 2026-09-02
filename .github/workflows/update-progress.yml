@@ -27,7 +27,7 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git config --global user.name "nanoobot"
+          git config --global user.name "robonanoo"
           git config --global user.email "bot@nanoolabs.dev"
           git add profile/README.md
           git diff --staged --quiet || git commit -m "chore: auto-update project progress nanoolabs"
