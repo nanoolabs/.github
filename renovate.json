@@ -6,6 +6,13 @@
   "minimumReleaseAge": "7 days",
   "automerge": true,
   "automergeType": "pr",
+  "labels": ["dependencies"],
+  "dependencyDashboard": true,
+  "prConcurrentLimit": 5,
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": ["security"]
+  },
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
