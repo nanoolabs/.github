@@ -17,6 +17,7 @@
 | [**Nanoo CDN**](https://cdn.nanoolabs.dev) | `72%` | `Experimental` |
 | [**Nanoo Docs**](https://docs.nanoolabs.dev) | `26%` | `Development` |
 | [**Nanoo Webrings**](https://webrings.nanoolabs.dev) | `90%` | `Polishing` |
+| [**/kaomoji**](https://github.com/nanoolabs/kaomoji) | `85%` | `Polishing` |
 <!-- roadmap_table_end -->
 
 ### Private Repositories [ ▨_▨ ]
