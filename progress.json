@@ -23,5 +23,10 @@
     "name": "Nanoo Webrings",
     "url": "https://webrings.nanoolabs.dev",
     "percent": 90
+  },
+  "kaomoji": {
+    "name": "@nlbs/kaomoji",
+    "url": "https://github.com/nanoolabs/kaomoji",
+    "percent": 85
   }
 }
