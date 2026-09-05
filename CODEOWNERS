@@ -1,0 +1,20 @@
+# Default owner for everything
+* @aadnanmt
+
+# Repos
+actions/ @aadnanmt
+app/ @aadnanmt
+assets/ @aadnanmt
+cdn/ @aadnanmt
+changelog/ @aadnanmt
+contributions/ @aadnanmt
+css/ @aadnanmt
+docs/ @aadnanmt
+.github/ @aadnanmt
+kaomoji/ @aadnanmt
+nanoolabs/ @aadnanmt
+nanoolabs.dev/ @aadnanmt
+rate-limiter/ @aadnanmt
+status/ @aadnanmt
+theme/ @aadnanmt
+webrings/ @aadnanmt
