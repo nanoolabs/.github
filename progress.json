@@ -1,14 +1,4 @@
 {
-  "stack": {
-    "name": "Nanoo Stack",
-    "url": "https://stack.nanoolabs.dev",
-    "percent": 12
-  },
-  "labs": {
-    "name": "Nanoo Labs",
-    "url": "https://nanoolabs.dev",
-    "percent": 27
-  },
   "cdn": {
     "name": "Nanoo CDN",
     "url": "https://cdn.nanoolabs.dev",
