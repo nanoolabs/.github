@@ -1,4 +1,4 @@
-> Building high-performance edge ecosystems.
+> **Nanoo Labs** ([/ˈnæ.nuː/](https://ipa-reader.com/?text=%CB%88n%C3%A6.nu%CB%90), pronounced nah-noo). Building high-performance edge ecosystems.
 
 ### Current Stack [ ▣_▣ ]
 
